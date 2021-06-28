@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HealthCare Locator SDK Sample</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <section class="sidebar">
+      <header>
+        <div class="burger"></div>
+        <h1>Seamless Care Demo</h1>
+      </header>
+      <ul class="menu">
+        <li class="menu-item">
+          <a href="text/javascript" onclick="https://static.healthcarelocator.com/v1/hcl-sdk-api/hcl-sdk-api.js">Home</a>
+		<script>      
+      			// Initialize HCL SDK API
+      			const hclAPI = new HclAPI({
+        		apiKey: '3001474552433639',
+			icons: {
+				search: `<svg>...</svg>`,
+			},
+			showSuggestModification: false,
+			entry: {
+				screenName: "Home";
+			}
+      			});
+		</script>
+
+        </li>
+        <li class="menu-item">
+          <a href="">Search for Seamless Care services (Future scope)</a>
+        </li>
+        <li class="menu-item">
+          <a href="">Find a practitioner near me (Future scope)</a>
+        </li>
+        <li class="menu-item">
+          <a href="">Find a diagnostic centre near me (Future scope)</a>
+        </li>
+      </ul>
+      <div class="sidenav-settings">
+        <settings-panel></settings-panel>
+      </div>
+    </section>
+    <section class="content-wrapper">
+      <div class="home-content">
+        <img src=""/>
+        <section class="home-text">
+          <p>This sample app is a demo of the integration of HealthCare Locator SDK UI inside a web site/application,</p>       
+  </body>
+</html>
